@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        /* rgb(red,green,blue) 
+            range->(0->255)
+        */
+        p{
+            color: #fff;
+            text-align: center;
+            text-decoration: underline;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            line-height: 40px;
+            font-size: 1.5rem;
+            font-style: italic;
+            /* 1rem=14px */
+        }
+        /* class selector */
+       .random{
+            border: 1px solid white ;
+            
+        } 
+       
+        #random2{
+            color: red;
+        }
+        h1,h4{
+            background-color: green;
+            border-radius: 10px;
+            
+        }
+        .hello1{
+            color: white;
+            height: 100px;
+            width: 100px;
+            border: 1px solid white;
+            margin-bottom: 1rem;
+            margin-left: 25%;
+            padding: 1rem;
+        }
+        .hello1:hover{
+            background-color: white;
+            color: black;
+            transition: 2s;
+            transform: scale(1.1);
+            transform: rotate(90deg);
+        }
+        .hello2{
+            color :white;
+              height: 100px;
+            width: 100px;
+            border: 1px solid white;
+            margin-left: 25%;
+            padding: 1rem;
+        }
+
+        @media (max-width: 700px){
+            .hello2{
+                color: green;
+                background-color: aqua;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p style="height: 100px;" class="random" id="random4">Hello guys!</p>
+    <h1 id="random2">Hello my name is neeraj </h1>
+    <h4>Randome words</h4>
+
+    <div class="hello1">
+        Hello1
+    </div>
+    <div class="hello2">
+        Hello2
+    </div>
+</body>
+</html>
