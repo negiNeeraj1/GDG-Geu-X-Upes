@@ -1,0 +1,8 @@
+.fixed{
+    position: sticky;
+    background-color: black;
+    width: 100%;
+    color: white;
+    top: 100px;
+    left: 2rem;
+}
