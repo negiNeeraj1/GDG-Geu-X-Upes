@@ -1,0 +1,13 @@
+button{
+    background-color: red;
+    height: 50px;
+    width: 100px;
+    color: white;
+}
+.btn{
+    margin-left: 100px;
+}
+.person i{
+    height: 100px;
+    width: 100px;
+}
